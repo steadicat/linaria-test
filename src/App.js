@@ -1,6 +1,4 @@
 import React, {Component} from 'react';
-import logo from './logo.svg';
-import FiraMono from './FiraMono-Medium.woff';
 import {css} from 'linaria';
 import './App.css';
 
@@ -21,14 +19,14 @@ class App extends Component {
 
 const AppHeader = css`
   background-color: #222;
-  background-image: url(${logo});
+  background-image: url(../../logo.svg);
   height: 150px;
   padding: 20px;
   color: white;
   font-family: FiraMono;
   @font-face {
     font-family: FiraMono;
-    src: ${FiraMono};
+    src: url(../../FiraMono-Medium.woff);
   }
 `;
 
